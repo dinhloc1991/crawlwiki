@@ -1,0 +1,34 @@
+package main;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+public class MyCraller {
+	public void getData(String seed_link,int deep){
+		try {
+			Document doc = Jsoup.connect(seed_link).get();
+			Element short_content = doc.select("div#mw-content-text").get(0).select("p").get(0);
+			String short_content_str = short_content.text();
+			ArrayList<String> keyWord_r = new ArrayList();
+			Elements keyWord_tag = short_content.select("a[href]");
+			//Get keyword
+			for (Element element : keyWord_tag) {
+				keyWord_r.add(element.text());
+			}
+			for (String keyWord : keyWord_r) {
+				System.out.println(keyWord);
+			}
+			
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+}

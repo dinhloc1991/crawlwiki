@@ -1,0 +1,41 @@
+package main;
+
+
+import java.io.IOException;
+
+import org.jsoup.Connection;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+import util.FileWriter;
+
+
+public class Main {
+	public static void main(String[] args){
+		String seed_link;
+		int depth; 
+		String result_str = "";
+		seed_link = "http://vi.wikipedia.org/wiki/M%E1%BA%A1ng_ng%E1%BB%AF_ngh%C4%A9a";
+		depth = 2;
+		
+		try {
+			Document doc = Jsoup.connect(seed_link).get();
+		//	System.out.println(doc);
+			Element short_content = doc.select("div.mw-content-ltr").get(0);
+			
+//			Elements a_tag = short_content.select("a[href]");
+//			for (Element element : a_tag) {
+//				System.out.println(a_tag.text());
+//			}
+			System.out.println(short_content);
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	
+			
+	}
+}

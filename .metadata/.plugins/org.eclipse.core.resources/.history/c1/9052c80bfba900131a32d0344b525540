@@ -1,0 +1,10 @@
+package main;
+
+public class Main {
+	public static void main(String[] args){
+		String seed_link;
+		int depth; 
+		seed_link = "http://vi.wikipedia.org/wiki/M%E1%BA%A1ng_ng%E1%BB%AF_ngh%C4%A9a";
+		depth = 1;
+	}
+}

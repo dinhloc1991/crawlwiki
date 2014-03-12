@@ -1,0 +1,12 @@
+package util;
+
+public class FileWriter {
+	public static void wirte(String fileName, content){
+		
+	}
+	
+	public static String read(String fileName){
+		String content = "";
+		return content;
+	}
+}

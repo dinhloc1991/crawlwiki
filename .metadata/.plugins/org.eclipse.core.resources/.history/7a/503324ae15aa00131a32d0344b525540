@@ -1,0 +1,88 @@
+package main;
+
+import java.io.IOException;
+import java.io.StringWriter;
+import java.util.ArrayList;
+
+import org.json.simple.JSONObject;
+import org.json.simple.JSONValue;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+import util.Common;
+
+public class MyCraller {
+//	public void getData(String seed_link, int depth) {
+//		try {
+//
+//			// Lay keword o lien ket ngoai
+//			// Elements keyword_tag_other =
+//			// doc.select("#collapsibleTable0");//.get(0).select("a[href]");
+//			// Common.print(keyword_tag_other.text());
+//			// for (Element element : keyword_tag_other) {
+//			// keyWord_r.add(element.text());
+//			// }
+//			// Common.print(keyWord_r);
+//
+//			// for (String keyWord : keyWord_r) {
+//			// System.out.println(keyWord);
+//			// }
+//			//
+//			// Lay toan bo duong link
+//			ArrayList<String> link_r_tong = new ArrayList<String>();
+//			ArrayList<String> link_r_cu = new ArrayList<String>();
+//			ArrayList<String> link_r_moi = new ArrayList<String>();
+//			link_r_cu.add(seed_link);
+//			for (int i = 0; i < depth; i++) {
+//				link_r_moi = new ArrayList();
+//				for (String string : link_r_cu) {
+//
+//				}
+//			}
+//
+//			Elements link_tag = doc.select("a[href]");
+//			for (Element element : link_tag) {
+//				link_r.add(element.attr("href"));
+//			}
+//			Common.print(link_r);
+//
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//	}
+
+	public void getDataOneLink(String link) {
+		JSONObject obj = new JSONObject();
+		try {
+			Document doc = Jsoup.connect(link).get();
+			Element short_content = doc.select("div#mw-content-text").get(0)
+					.select("p").get(0);
+			
+			String short_content_str = short_content.text();
+//			json_s = json_s + "{\"content\":\""+short_content_str+"\", \"keyWord\":[";
+			
+			obj.put("short_content", short_content_str);
+			ArrayList<String> keyWord_r = new ArrayList();
+
+			// Lay keyword o short_content
+			Elements keyWord_tag = short_content.select("a");
+			for (Element element : keyWord_tag) {
+		//		Common.print(element.text());
+				keyWord_r.add(element.text());
+		//		json_s = json_s + "\""+element.text()+"\",";
+			}
+		//	json_s = json_s.substring(0, json_s.length()-2)+"]";
+		//	Common.print(json_s);
+			obj.put("keyword", JSONValue.toJSONString(keyWord_r).substring(1, -1));
+			StringWriter out = new StringWriter();
+			obj.writeJSONString(out);
+			String jsonText = out.toString();
+			System.out.print(jsonText);
+		} catch (IOException e) {
+
+		}
+	}
+}
