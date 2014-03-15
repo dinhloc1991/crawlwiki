@@ -1,0 +1,39 @@
+package main;
+
+import java.io.Console;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+import redis.clients.jedis.Jedis;
+import util.Common;
+
+public class Main {
+	public static void main(String[] args){
+		String seed_link;
+		int depth; 
+		seed_link = "http://vi.wikipedia.org/wiki/M%E1%BA%A1ng_ng%E1%BB%AF_ngh%C4%A9a";
+		depth = 2;
+		int chon;
+		while(true){
+			Common.print("Chon cac tuy chon sau \n" +
+					"1. Crawl \n" +
+					"2. Show toan bo du lieu\n" +
+					"3. Xoa toa du lieu\n" +
+					"4. Thoa khoi chuong trinh   ");
+			Console console = System.console();
+			Scanner scanner = new Scanner(System.in);
+			chon = scanner.nextInt();
+	//		chon = Integer.parseInt(console.readLine());
+			Common.print(""+chon);
+			if (chon==4) break;		
+		}
+//		new MyCraller().getData(seed_link, depth);
+	}
+
+}

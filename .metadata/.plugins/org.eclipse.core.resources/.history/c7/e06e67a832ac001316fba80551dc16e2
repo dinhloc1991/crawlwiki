@@ -1,0 +1,9 @@
+package main;
+
+import redis.clients.jedis.Jedis;
+
+public class MyJedis {
+	Jedis jedis = new Jedis("localhost");
+	jedis.connect();
+	jedis.set(key, value);
+}

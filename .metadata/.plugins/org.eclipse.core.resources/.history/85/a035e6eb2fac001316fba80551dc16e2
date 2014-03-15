@@ -1,0 +1,28 @@
+package main;
+
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+import redis.clients.jedis.Jedis;
+import util.Common;
+
+
+public class Main {
+		String seed_link;
+		int depth; 
+		seed_link = "http://vi.wikipedia.org/wiki/M%E1%BA%A1ng_ng%E1%BB%AF_ngh%C4%A9a";
+		depth = 2;
+		public static void main(String[] args){
+			Common.print(")
+		
+		new MyCraller().getData(seed_link, depth);
+	}
+	
+	
+}

@@ -1,0 +1,5 @@
+package main;
+
+public class Constant {
+	public static void FILE_RESULT = "result.txt";
+}

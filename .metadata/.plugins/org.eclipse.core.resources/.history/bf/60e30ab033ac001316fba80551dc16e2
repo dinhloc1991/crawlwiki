@@ -1,0 +1,23 @@
+package main;
+
+import java.util.Set;
+
+import redis.clients.jedis.Jedis;
+import util.Common;
+
+public class MyJedis {
+	private Jedis jedis ;
+	public MyJedis(){
+		jedis = new Jedis("localhost");
+		jedis.connect();
+	}
+	public void set(String key,String value){
+		this.jedis.set(key, value);
+	}
+	public void showAll(){
+		Set<String> keys = jedis.keys("*");
+		for (String string : keys) {
+			Common.get(keys);
+		}
+	}
+}

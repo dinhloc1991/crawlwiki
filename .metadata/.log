@@ -38,3 +38,574 @@ Java Model Exception: Java Model Status [Timed out while retrieving the attached
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1012 2014-03-12 22:41:13.654
 !MESSAGE Timed out while retrieving the attached javadoc for FileOutputStream [in FileOutputStream.class [in java.io [in /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/rt.jar]]] 
+!SESSION 2014-03-14 23:13:21.388 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-03-14 23:13:28.659
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2014-03-14 23:21:25.007 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-03-14 23:21:53.656
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://dl.google.com/eclipse/inst/d2wbpro/latest/3.5.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-03-14 23:21:53.657
+!MESSAGE No repository found at http://dl.google.com/eclipse/inst/d2wbpro/latest/3.5.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2014-03-14 23:21:53.664
+!MESSAGE No repository found at http://dl.google.com/eclipse/inst/d2wbpro/latest/3.5.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-03-14 23:36:50.731
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://dl.google.com/eclipse/inst/d2wbpro/latest/3.5.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-03-14 23:36:50.731
+!MESSAGE No repository found at http://dl.google.com/eclipse/inst/d2wbpro/latest/3.5.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2014-03-14 23:36:50.732
+!MESSAGE No repository found at http://dl.google.com/eclipse/inst/d2wbpro/latest/3.5.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-03-14 23:38:17.486
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://dl.google.com/eclipse/inst/d2wbpro/latest/3.5.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-03-14 23:38:17.487
+!MESSAGE No repository found at http://dl.google.com/eclipse/inst/d2wbpro/latest/3.5.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2014-03-14 23:38:17.487
+!MESSAGE No repository found at http://dl.google.com/eclipse/inst/d2wbpro/latest/3.5.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-03-14 23:39:12.054
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:39:12.054
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:39:12.054
+!MESSAGE Software being installed: Dynamic Languages Toolkit - Ruby Development Tools SDK 2.0.0.v20090730-1127-4--84L23HCMnUW7RPoxKoq2YAFlN (org.eclipse.dltk.ruby.sdk.feature.group 2.0.0.v20090730-1127-4--84L23HCMnUW7RPoxKoq2YAFlN)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:39:12.054
+!MESSAGE Missing requirement: Dynamic Languages Toolkit - Core Frameworks 2.0.0.v20100518-1923-7L--EAAoOVMSMc4AWEvJ (org.eclipse.dltk.core.feature.group 2.0.0.v20100518-1923-7L--EAAoOVMSMc4AWEvJ) requires 'org.eclipse.emf.ecore.feature.group 2.4.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:39:12.055
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:39:12.055
+!MESSAGE From: Dynamic Languages Toolkit - Ruby Development Tools 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G (org.eclipse.dltk.ruby.feature.group 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:39:12.055
+!MESSAGE To: org.eclipse.dltk.core.feature.group [2.0.0,3.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:39:12.055
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:39:12.055
+!MESSAGE From: Dynamic Languages Toolkit - Ruby Development Tools SDK 2.0.0.v20090730-1127-4--84L23HCMnUW7RPoxKoq2YAFlN (org.eclipse.dltk.ruby.sdk.feature.group 2.0.0.v20090730-1127-4--84L23HCMnUW7RPoxKoq2YAFlN)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:39:12.055
+!MESSAGE To: org.eclipse.dltk.ruby.feature.group [2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-03-14 23:39:12.071
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:39:12.071
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:39:12.071
+!MESSAGE Software being installed: Dynamic Languages Toolkit - Ruby Development Tools SDK 2.0.0.v20090730-1127-4--84L23HCMnUW7RPoxKoq2YAFlN (org.eclipse.dltk.ruby.sdk.feature.group 2.0.0.v20090730-1127-4--84L23HCMnUW7RPoxKoq2YAFlN)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:39:12.071
+!MESSAGE Missing requirement: Dynamic Languages Toolkit - Core Frameworks 2.0.0.v20100518-1923-7L--EAAoOVMSMc4AWEvJ (org.eclipse.dltk.core.feature.group 2.0.0.v20100518-1923-7L--EAAoOVMSMc4AWEvJ) requires 'org.eclipse.emf.ecore.feature.group 2.4.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:39:12.071
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:39:12.071
+!MESSAGE From: Dynamic Languages Toolkit - Ruby Development Tools 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G (org.eclipse.dltk.ruby.feature.group 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:39:12.071
+!MESSAGE To: org.eclipse.dltk.core.feature.group [2.0.0,3.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:39:12.071
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:39:12.071
+!MESSAGE From: Dynamic Languages Toolkit - Ruby Development Tools SDK 2.0.0.v20090730-1127-4--84L23HCMnUW7RPoxKoq2YAFlN (org.eclipse.dltk.ruby.sdk.feature.group 2.0.0.v20090730-1127-4--84L23HCMnUW7RPoxKoq2YAFlN)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:39:12.071
+!MESSAGE To: org.eclipse.dltk.ruby.feature.group [2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-03-14 23:40:00.789
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:40:00.789
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:00.790
+!MESSAGE Software being installed: Dynamic Languages Toolkit - Ruby Development Tools 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G (org.eclipse.dltk.ruby.feature.group 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:00.790
+!MESSAGE Missing requirement: Dynamic Languages Toolkit Core 2.0.0.v20100603-0936 (org.eclipse.dltk.core 2.0.0.v20100603-0936) requires 'bundle org.eclipse.emf.ecore 2.4.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:40:00.790
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:00.790
+!MESSAGE From: Dynamic Languages Toolkit - Ruby Development Tools 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G (org.eclipse.dltk.ruby.feature.group 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:00.790
+!MESSAGE To: org.eclipse.dltk.ruby.formatter [2.0.0.v20100212-1450]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:40:00.790
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:00.790
+!MESSAGE From: Dynamic Languages Toolkit Ruby Formatter 2.0.0.v20100212-1450 (org.eclipse.dltk.ruby.formatter 2.0.0.v20100212-1450)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:00.790
+!MESSAGE To: bundle org.eclipse.dltk.core 2.0.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-03-14 23:40:00.793
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:40:00.793
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:00.793
+!MESSAGE Software being installed: Dynamic Languages Toolkit - Ruby Development Tools 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G (org.eclipse.dltk.ruby.feature.group 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:00.793
+!MESSAGE Missing requirement: Dynamic Languages Toolkit Core 2.0.0.v20100603-0936 (org.eclipse.dltk.core 2.0.0.v20100603-0936) requires 'bundle org.eclipse.emf.ecore 2.4.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:40:00.793
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:00.793
+!MESSAGE From: Dynamic Languages Toolkit - Ruby Development Tools 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G (org.eclipse.dltk.ruby.feature.group 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:00.793
+!MESSAGE To: org.eclipse.dltk.ruby.formatter [2.0.0.v20100212-1450]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:40:00.793
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:00.793
+!MESSAGE From: Dynamic Languages Toolkit Ruby Formatter 2.0.0.v20100212-1450 (org.eclipse.dltk.ruby.formatter 2.0.0.v20100212-1450)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:00.794
+!MESSAGE To: bundle org.eclipse.dltk.core 2.0.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-03-14 23:40:18.937
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:40:18.937
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:18.937
+!MESSAGE Software being installed: Dynamic Languages Toolkit - Ruby Development Tools 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G (org.eclipse.dltk.ruby.feature.group 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:18.938
+!MESSAGE Missing requirement: Dynamic Languages Toolkit Core 2.0.0.v20100603-0936 (org.eclipse.dltk.core 2.0.0.v20100603-0936) requires 'bundle org.eclipse.emf.ecore 2.4.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:40:18.938
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:18.938
+!MESSAGE From: Dynamic Languages Toolkit - Ruby Development Tools 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G (org.eclipse.dltk.ruby.feature.group 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:18.938
+!MESSAGE To: org.eclipse.dltk.ruby.formatter [2.0.0.v20100212-1450]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:40:18.938
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:18.938
+!MESSAGE From: Dynamic Languages Toolkit Ruby Formatter 2.0.0.v20100212-1450 (org.eclipse.dltk.ruby.formatter 2.0.0.v20100212-1450)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:18.938
+!MESSAGE To: bundle org.eclipse.dltk.core 2.0.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-03-14 23:40:18.939
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:40:18.939
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:18.939
+!MESSAGE Software being installed: Dynamic Languages Toolkit - Ruby Development Tools 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G (org.eclipse.dltk.ruby.feature.group 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:18.939
+!MESSAGE Missing requirement: Dynamic Languages Toolkit Core 2.0.0.v20100603-0936 (org.eclipse.dltk.core 2.0.0.v20100603-0936) requires 'bundle org.eclipse.emf.ecore 2.4.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:40:18.939
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:18.939
+!MESSAGE From: Dynamic Languages Toolkit - Ruby Development Tools 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G (org.eclipse.dltk.ruby.feature.group 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:18.939
+!MESSAGE To: org.eclipse.dltk.ruby.formatter [2.0.0.v20100212-1450]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:40:18.939
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:18.939
+!MESSAGE From: Dynamic Languages Toolkit Ruby Formatter 2.0.0.v20100212-1450 (org.eclipse.dltk.ruby.formatter 2.0.0.v20100212-1450)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:18.939
+!MESSAGE To: bundle org.eclipse.dltk.core 2.0.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-03-14 23:40:23.038
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:40:23.038
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:23.038
+!MESSAGE Software being installed: Dynamic Languages Toolkit - Ruby Development Tools SDK 2.0.0.v20090730-1127-4--84L23HCMnUW7RPoxKoq2YAFlN (org.eclipse.dltk.ruby.sdk.feature.group 2.0.0.v20090730-1127-4--84L23HCMnUW7RPoxKoq2YAFlN)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:23.038
+!MESSAGE Missing requirement: Dynamic Languages Toolkit - Core Frameworks 2.0.0.v20100518-1923-7L--EAAoOVMSMc4AWEvJ (org.eclipse.dltk.core.feature.group 2.0.0.v20100518-1923-7L--EAAoOVMSMc4AWEvJ) requires 'org.eclipse.emf.ecore.feature.group 2.4.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:40:23.038
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:23.038
+!MESSAGE From: Dynamic Languages Toolkit - Ruby Development Tools 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G (org.eclipse.dltk.ruby.feature.group 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:23.038
+!MESSAGE To: org.eclipse.dltk.core.feature.group [2.0.0,3.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:40:23.038
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:23.038
+!MESSAGE From: Dynamic Languages Toolkit - Ruby Development Tools SDK 2.0.0.v20090730-1127-4--84L23HCMnUW7RPoxKoq2YAFlN (org.eclipse.dltk.ruby.sdk.feature.group 2.0.0.v20090730-1127-4--84L23HCMnUW7RPoxKoq2YAFlN)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:23.038
+!MESSAGE To: org.eclipse.dltk.ruby.feature.group [2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-03-14 23:40:23.039
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:40:23.040
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:23.040
+!MESSAGE Software being installed: Dynamic Languages Toolkit - Ruby Development Tools SDK 2.0.0.v20090730-1127-4--84L23HCMnUW7RPoxKoq2YAFlN (org.eclipse.dltk.ruby.sdk.feature.group 2.0.0.v20090730-1127-4--84L23HCMnUW7RPoxKoq2YAFlN)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:23.040
+!MESSAGE Missing requirement: Dynamic Languages Toolkit - Core Frameworks 2.0.0.v20100518-1923-7L--EAAoOVMSMc4AWEvJ (org.eclipse.dltk.core.feature.group 2.0.0.v20100518-1923-7L--EAAoOVMSMc4AWEvJ) requires 'org.eclipse.emf.ecore.feature.group 2.4.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:40:23.040
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:23.040
+!MESSAGE From: Dynamic Languages Toolkit - Ruby Development Tools 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G (org.eclipse.dltk.ruby.feature.group 2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:23.040
+!MESSAGE To: org.eclipse.dltk.core.feature.group [2.0.0,3.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:40:23.040
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:23.040
+!MESSAGE From: Dynamic Languages Toolkit - Ruby Development Tools SDK 2.0.0.v20090730-1127-4--84L23HCMnUW7RPoxKoq2YAFlN (org.eclipse.dltk.ruby.sdk.feature.group 2.0.0.v20090730-1127-4--84L23HCMnUW7RPoxKoq2YAFlN)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:40:23.040
+!MESSAGE To: org.eclipse.dltk.ruby.feature.group [2.0.0.v20100505-1154-7G--E_EkMU3NHhvAUo0G]
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-03-14 23:43:27.310
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://dl.google.com/eclipse/inst/d2wbpro/latest/3.5.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-03-14 23:43:27.311
+!MESSAGE No repository found at http://dl.google.com/eclipse/inst/d2wbpro/latest/3.5.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2014-03-14 23:43:27.312
+!MESSAGE No repository found at http://dl.google.com/eclipse/inst/d2wbpro/latest/3.5.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-03-14 23:44:46.694
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:44:46.694
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:44:46.694
+!MESSAGE Software being installed: Dynamic Languages Toolkit - Ruby Development Tools 1.0.0.v20090610-1638-7B--E_EkMO1NTYtAZCz-9 (org.eclipse.dltk.ruby.feature.group 1.0.0.v20090610-1638-7B--E_EkMO1NTYtAZCz-9)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:44:46.694
+!MESSAGE Missing requirement: Dynamic Languages Toolkit Core 1.0.0.v20090617-1157 (org.eclipse.dltk.core 1.0.0.v20090617-1157) requires 'bundle org.eclipse.emf.ecore 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:44:46.695
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:44:46.695
+!MESSAGE From: Dynamic Languages Toolkit - Core Frameworks 1.0.0.v20090610-1638-7C--EAAoOQBPbbrBcPz0b (org.eclipse.dltk.core.feature.group 1.0.0.v20090610-1638-7C--EAAoOQBPbbrBcPz0b)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:44:46.695
+!MESSAGE To: org.eclipse.dltk.core [1.0.0.v20090617-1157]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:44:46.695
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:44:46.695
+!MESSAGE From: Dynamic Languages Toolkit - Ruby Development Tools 1.0.0.v20090610-1638-7B--E_EkMO1NTYtAZCz-9 (org.eclipse.dltk.ruby.feature.group 1.0.0.v20090610-1638-7B--E_EkMO1NTYtAZCz-9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:44:46.695
+!MESSAGE To: org.eclipse.dltk.core.feature.group [1.0.0,2.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-03-14 23:44:46.697
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:44:46.697
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:44:46.697
+!MESSAGE Software being installed: Dynamic Languages Toolkit - Ruby Development Tools 1.0.0.v20090610-1638-7B--E_EkMO1NTYtAZCz-9 (org.eclipse.dltk.ruby.feature.group 1.0.0.v20090610-1638-7B--E_EkMO1NTYtAZCz-9)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:44:46.697
+!MESSAGE Missing requirement: Dynamic Languages Toolkit Core 1.0.0.v20090617-1157 (org.eclipse.dltk.core 1.0.0.v20090617-1157) requires 'bundle org.eclipse.emf.ecore 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:44:46.697
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:44:46.697
+!MESSAGE From: Dynamic Languages Toolkit - Core Frameworks 1.0.0.v20090610-1638-7C--EAAoOQBPbbrBcPz0b (org.eclipse.dltk.core.feature.group 1.0.0.v20090610-1638-7C--EAAoOQBPbbrBcPz0b)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:44:46.697
+!MESSAGE To: org.eclipse.dltk.core [1.0.0.v20090617-1157]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-03-14 23:44:46.697
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:44:46.697
+!MESSAGE From: Dynamic Languages Toolkit - Ruby Development Tools 1.0.0.v20090610-1638-7B--E_EkMO1NTYtAZCz-9 (org.eclipse.dltk.ruby.feature.group 1.0.0.v20090610-1638-7B--E_EkMO1NTYtAZCz-9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-03-14 23:44:46.697
+!MESSAGE To: org.eclipse.dltk.core.feature.group [1.0.0,2.0.0)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2014-03-14 23:52:34.158
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://dl.google.com/eclipse/inst/d2wbpro/latest/3.5.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2014-03-14 23:52:34.158
+!MESSAGE No repository found at http://dl.google.com/eclipse/inst/d2wbpro/latest/3.5.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2014-03-14 23:52:34.159
+!MESSAGE No repository found at http://dl.google.com/eclipse/inst/d2wbpro/latest/3.5.
+
+!ENTRY org.eclipse.ecf.provider.filetransfer 4 0 2014-03-14 23:54:13.395
+!MESSAGE org.eclipse.core.runtime.Status[plugin=org.eclipse.ecf.provider.filetransfer;code=4;message=hardClose;severity4;exception=java.io.IOException: Stream closed;children=[]]
+!STACK 0
+java.io.IOException: Stream closed
+	at java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:162)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:325)
+	at org.apache.commons.httpclient.ContentLengthInputStream.read(ContentLengthInputStream.java:170)
+	at org.apache.commons.httpclient.ContentLengthInputStream.read(ContentLengthInputStream.java:184)
+	at org.apache.commons.httpclient.ChunkedInputStream.exhaustInputStream(ChunkedInputStream.java:369)
+	at org.apache.commons.httpclient.ContentLengthInputStream.close(ContentLengthInputStream.java:118)
+	at java.io.FilterInputStream.close(FilterInputStream.java:172)
+	at org.apache.commons.httpclient.AutoCloseInputStream.notifyWatcher(AutoCloseInputStream.java:194)
+	at org.apache.commons.httpclient.AutoCloseInputStream.close(AutoCloseInputStream.java:158)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.hardClose(AbstractRetrieveFileTransfer.java:331)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.hardClose(HttpClientRetrieveFileTransfer.java:396)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.cancel(HttpClientRetrieveFileTransfer.java:382)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.handleTransferEvent(FileReader.java:173)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.fireTransferReceiveDataEvent(AbstractRetrieveFileTransfer.java:388)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer.fireTransferReceiveDataEvent(HttpClientRetrieveFileTransfer.java:1163)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.handleReceivedData(AbstractRetrieveFileTransfer.java:288)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:173)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2014-03-14 23:57:21.925 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2014-03-14 23:57:37.693
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-03-14 23:57:37.693
+!MESSAGE A conflict occurred for CTRL+SHIFT+D:
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Display,Display,
+		Display result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(com.aptana.ide.syncing.ui.commands.download,Download...,
+		,
+		Category(com.aptana.ide.syncing.ui.commands.category,File Transfer,File Transfer Commands,true),
+		com.aptana.ide.syncing.ui.handlers.DownloadHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.radrails.rails.ui.command.debug.server,Debug Server,
+		,
+		Category(org.radrails.rails.ui.category,Rails,null,true),
+		org.radrails.rails.internal.ui.commands.DebugServerHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-03-14 23:57:37.693
+!MESSAGE A conflict occurred for CTRL+SHIFT+U:
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu,Show Occurrences in File Quick Menu,
+		Shows the Occurrences in File quick menu,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(com.aptana.ide.syncing.ui.commands.upload,Upload...,
+		,
+		Category(com.aptana.ide.syncing.ui.commands.category,File Transfer,File Transfer Commands,true),
+		com.aptana.ide.syncing.ui.handlers.UploadHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2014-03-15 13:33:39.594 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/dinhxuanloc/workspace2_nghiencuu/crawwiki -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2014-03-15 13:33:45.825
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-03-15 13:33:45.825
+!MESSAGE A conflict occurred for CTRL+SHIFT+D:
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Display,Display,
+		Display result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(com.aptana.ide.syncing.ui.commands.download,Download...,
+		,
+		Category(com.aptana.ide.syncing.ui.commands.category,File Transfer,File Transfer Commands,true),
+		com.aptana.ide.syncing.ui.handlers.DownloadHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.radrails.rails.ui.command.debug.server,Debug Server,
+		,
+		Category(org.radrails.rails.ui.category,Rails,null,true),
+		org.radrails.rails.internal.ui.commands.DebugServerHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-03-15 13:33:45.825
+!MESSAGE A conflict occurred for CTRL+SHIFT+U:
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu,Show Occurrences in File Quick Menu,
+		Shows the Occurrences in File quick menu,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(com.aptana.ide.syncing.ui.commands.upload,Upload...,
+		,
+		Category(com.aptana.ide.syncing.ui.commands.category,File Transfer,File Transfer Commands,true),
+		com.aptana.ide.syncing.ui.handlers.UploadHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2014-03-15 17:05:20.831 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-03-15 17:05:29.590
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2014-03-15 17:05:37.120
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-03-15 17:05:37.120
+!MESSAGE A conflict occurred for CTRL+SHIFT+D:
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Display,Display,
+		Display result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(com.aptana.ide.syncing.ui.commands.download,Download...,
+		,
+		Category(com.aptana.ide.syncing.ui.commands.category,File Transfer,File Transfer Commands,true),
+		com.aptana.ide.syncing.ui.handlers.DownloadHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.radrails.rails.ui.command.debug.server,Debug Server,
+		,
+		Category(org.radrails.rails.ui.category,Rails,null,true),
+		org.radrails.rails.internal.ui.commands.DebugServerHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-03-15 17:05:37.120
+!MESSAGE A conflict occurred for CTRL+SHIFT+U:
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu,Show Occurrences in File Quick Menu,
+		Shows the Occurrences in File quick menu,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(com.aptana.ide.syncing.ui.commands.upload,Upload...,
+		,
+		Category(com.aptana.ide.syncing.ui.commands.category,File Transfer,File Transfer Commands,true),
+		com.aptana.ide.syncing.ui.handlers.UploadHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.jobs 4 2 2014-03-15 17:05:39.113
+!MESSAGE An internal error occurred during: "Start Ruble bundle manager".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.File.<init>(File.java:265)
+	at com.aptana.scripting.internal.model.BundleMonitor.beginMonitoring(BundleMonitor.java:96)
+	at com.aptana.scripting.ScriptingActivator$1.run(ScriptingActivator.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 2 2 2014-03-15 17:11:21.851
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
+!SESSION 2014-03-15 17:13:27.705 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2014-03-15 17:14:55.571
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-03-15 17:14:55.571
+!MESSAGE A conflict occurred for CTRL+SHIFT+U:
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu,Show Occurrences in File Quick Menu,
+		Shows the Occurrences in File quick menu,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(com.aptana.ide.syncing.ui.commands.upload,Upload...,
+		,
+		Category(com.aptana.ide.syncing.ui.commands.category,File Transfer,File Transfer Commands,true),
+		com.aptana.ide.syncing.ui.handlers.UploadHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-03-15 17:14:55.571
+!MESSAGE A conflict occurred for CTRL+SHIFT+D:
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Display,Display,
+		Display result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(com.aptana.ide.syncing.ui.commands.download,Download...,
+		,
+		Category(com.aptana.ide.syncing.ui.commands.category,File Transfer,File Transfer Commands,true),
+		com.aptana.ide.syncing.ui.handlers.DownloadHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.radrails.rails.ui.command.debug.server,Debug Server,
+		,
+		Category(org.radrails.rails.ui.category,Rails,null,true),
+		org.radrails.rails.internal.ui.commands.DebugServerHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)

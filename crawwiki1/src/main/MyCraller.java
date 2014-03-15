@@ -27,17 +27,16 @@ public class MyCraller {
 			link_r_moi = new ArrayList();
 			Common.print("--------Do sau " + i);
 			for (String link : link_r_cu) {
-				if (!link.contains("wikipedia")) {
-					continue;
-				}
-				if (!link.startsWith("http")){
-					link = "http:"+link;
+				if (!link.startsWith("http")) {
+					if (link.startsWith("/wiki")){
+						link = "http://wikipedia.org/" + link;
+					}
 				}
 				Common.print(link);
 				link_tmp = getDataOneLink(link);
 				link_r_moi.addAll(link_tmp);
 			}
-			
+
 			link_r_cu = new ArrayList(link_r_moi);
 		}
 
@@ -47,29 +46,39 @@ public class MyCraller {
 		JSONObject obj = new JSONObject();
 		try {
 			Document doc = Jsoup.connect(link).get();
-			FileWriter.write("result.txt", doc.html());
+			// FileWriter.write("result.txt", doc.html());
 			Element short_content = doc.select("div#mw-content-text").get(0)
 					.select("p").get(0);
-
+			FileWriter.write("result.txt", short_content.html());
 			String short_content_str = short_content.text();
 			obj.put("short_content", short_content_str);
 			ArrayList<String> keyWord_r = new ArrayList();
+			ArrayList<String> link_r = new ArrayList();
+
 			Elements keyWord_tag = short_content.select("a");
 			for (Element element : keyWord_tag) {
 				keyWord_r.add(element.text());
+				String link_next_level = element.attr("href");
+				if ((!link_next_level.contains("wikipedia")
+						&& !link_next_level.contains("wiki"))
+						|| link_next_level.contains("#cite_note")) {
+					continue;
+				}
+				Common.print("++++++" + link_next_level);
+				link_r.add(link_next_level);
 			}
 			obj.put("keyword", keyWord_r);
 			StringWriter out = new StringWriter();
 			obj.writeJSONString(out);
 			String jsonText = out.toString();
 			System.out.print(jsonText);
-//			useJedis(link, jsonText);
+			useJedis(link, jsonText);
 
-			Elements link_tag = doc.select("a[href]");
-			ArrayList<String> link_r = new ArrayList();
-			for (Element element : link_tag) {
-				link_r.add(element.attr("href"));
-			}
+			// Elements link_tag = short_content.select("a[href]");
+			//
+			// for (Element element : link_tag) {
+			// link_r.add(element.attr("href"));
+			// }
 			// Common.print(link_r);
 			return link_r;
 		} catch (Exception e) {
@@ -79,8 +88,6 @@ public class MyCraller {
 	}
 
 	public void useJedis(String key, String value) {
-		Jedis jedis = new Jedis("localhost");
-		jedis.connect();
-		jedis.set(key, value);
+		Main.jedis.set(key, value);
 	}
 }
